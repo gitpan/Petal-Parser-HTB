@@ -1,0 +1,6 @@
+Revision history for Petal::Parser::HTB.
+
+1.00 Wed Sep 24 13:33:57 BST 2003
+    - Extracted HTML::TreeBuilder parser from Petal 1.06
+    - Moved it to Petal::Parser::HTB
+    - Ported Petal's test suite
