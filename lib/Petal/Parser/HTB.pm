@@ -18,7 +18,7 @@ use vars qw /@NodeStack @MarkedData $Canonicalizer
 
 $Petal::INPUTS->{HTML}  = 'Petal::Parser::HTB';
 $Petal::INPUTS->{XHTML} = 'Petal::Parser::HTB';
-our $VERSION = '1.02';
+our $VERSION = '1.03';
 
 # this avoid silly warnings
 sub sillyness

@@ -17,8 +17,10 @@ $Petal::INPUT        = 'XHTML';
 ok (1);
 if ($] > 5.007)
 {
+    # die ${ Petal->new ('entities.html')->_canonicalize() };
     my $string = Petal->new ( 'entities.html' )->process();
-    like ($string, qr/©/ => 'Copyright');
-    like ($string, qr/®/ => 'Registered');
+    like ($string, qr/\x{00a9}/ => 'Copyright');
+    like ($string, qr/\x{00ae}/ => 'Registered');
+    like ($string, qr/\x{00a0}/ => 'NBSP');
 }
 
