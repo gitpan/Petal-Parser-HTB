@@ -18,7 +18,7 @@ use vars qw /@NodeStack @MarkedData $Canonicalizer
 
 $Petal::INPUTS->{HTML}  = 'Petal::Parser::HTB';
 $Petal::INPUTS->{XHTML} = 'Petal::Parser::HTB';
-our $VERSION = '1.03';
+our $VERSION = '1.04';
 
 # this avoid silly warnings
 sub sillyness
@@ -225,7 +225,7 @@ None.
 
 Copyright 2003 - MKDoc Holdings Ltd.
 
-Authors: Jean-Michel Hiver <jhiver@mkdoc.com>.
+Authors: Jean-Michel Hiver
 
 This module free software and is distributed under the same license as Perl
 itself. Use it at your own risk.
@@ -245,7 +245,5 @@ Mailing list archives:
 
   http://lists.webarch.co.uk/pipermail/petal
 
-
-Any extra questions? jhiver@mkdoc.com.
 
 =cut

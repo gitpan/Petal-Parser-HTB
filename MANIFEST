@@ -1,3 +1,4 @@
+.cvsignore
 Changes
 lib/Petal/Parser/HTB.pm
 Makefile.PL
